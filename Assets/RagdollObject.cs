@@ -26,11 +26,6 @@ public class RagdollObject : MonoBehaviour
     }
     #endif
 
-    private void Awake()
-    {
-        
-    }
-
     public void SetRagdollState(bool isRagDolled){
         IsRagDolled = isRagDolled;
 
